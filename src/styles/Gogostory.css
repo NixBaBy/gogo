@@ -1,0 +1,72 @@
+.gogostory {
+  margin-top: 100px;
+}
+.gogostoryContent {
+  position: relative;
+  width: 170px;
+  height: 235px;
+  margin-top: 30px;
+}
+.gogoContentImf {
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.imf-p {
+  position: absolute;
+  font-size: 14px;
+  bottom: 40px;
+  width: 150px;
+}
+.viewer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+}
+.gogoContent-img img {
+  width: 100%;
+  height: 100%;
+}
+.sectionTittle {
+  display: flex;
+  gap: 5px;
+}
+.sectionTittle :nth-child(1) {
+  font-size: 27px;
+  font-weight: 800;
+}
+.sectionTittle :nth-child(2) {
+  font-size: 20px;
+  background-color: #00aff4;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+  font-weight: 700;
+}
+.gogoContent-img {
+  width: 170px;
+  height: 235px;
+  border-radius: 7px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.viewer {
+  display: flex;
+  align-items: center;
+}
+.viewer svg {
+  width: 15px;
+  height: 15px;
+  fill: white;
+}
+.gogoFlex {
+  display: flex;
+  gap: 30px;
+}
